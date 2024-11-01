@@ -1,0 +1,53 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 2,
+  "name": "themes-kingdom/the-marquee-block",
+  "version": "0.1.0",
+  "title": "The Marquee Block",
+  "category": "widgets",
+  "icon": "the-marquee-block",
+  "description": "Display a scrolling piece of text horizontally across your website.",
+  "supports": {
+    "html": false
+  },
+  "attributes": {
+    "message": {
+      "type": "string"
+    },
+    "position": {
+      "type": "string",
+      "default": "no"
+    },
+    "backgroundColor": {
+      "type": "string"
+    },
+    "textColor": {
+      "type": "string"
+    },
+    "fontSize": {
+      "type": "string"
+    },
+    "fontName": {
+      "type": "string"
+    },
+    "variant": {
+      "type": "string"
+    },
+    "hoverStop": {
+      "type": "boolean"
+    },
+    "marDirection": {
+      "type": "boolean"
+    },
+    "blockMargin": {
+      "type": "boolean"
+    },
+    "scrollingSpeed": {
+      "type": "number"
+    }
+  },
+  "textdomain": "the-marquee-block",
+  "editorScript": "file:./index.js",
+  "editorStyle": "file:./index.css",
+  "style": "file:./style-index.css"
+}
